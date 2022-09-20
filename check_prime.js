@@ -1,12 +1,12 @@
 let num = 17;
-function check_prime(num){
+function check_prime(number){
 let factors = 0;
 for(let i=1;i<=N;i++){
- if(num%i=0){
+ if(number%i=0){
   factors++;
 }
 }
-if(fac=0){
+if(factors==0){
  return true;
 }else{
  return false 
@@ -14,7 +14,7 @@ if(fac=0){
 }
 let result = check_prime(num)
 if(result==true){
-console.log(" prime")
+console.log(number,"is Prime")
 }else {
-console.log("not")
+console.log(number"is not Prime")
 }
